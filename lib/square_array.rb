@@ -3,8 +3,7 @@ def square_array(array)
   array1 = []
   
   while counter < array.length do
-    array1.shift 
-    
+    array1.shift(array(counter))
     counter += 1
   end
 end
